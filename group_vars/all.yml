@@ -28,7 +28,7 @@ nmap_enabled:                 yes
 qemu_enabled:                 yes
 virt-manager_enabled:         no
 cutecom_enabled:              yes
-numix-circle_enabled:         yes
+numix_circle_enabled:         yes
 neofetch_enabled:             yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable

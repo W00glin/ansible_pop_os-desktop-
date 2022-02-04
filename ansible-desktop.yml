@@ -153,13 +153,13 @@
         - network
         - desktop
       when: cutecom_enabled | bool
-    - role: numix-circle
+    - role: numix_circle
       become: true
       tags:
-        - numix-circle
+        - numix_circle
         - network
         - desktop
-      when: numix-circle_enabled | bool
+      when: numix_circle_enabled | bool
     - role: neofetch
       become: true
       tags:
