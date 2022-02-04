@@ -36,31 +36,31 @@
         - common
       when: snapd_enabled | bool
     ## Developer roles
-    - role: 'aws/cli'
-      tags:
-        - aws
-        - aws:cli
-        - development
-        - development:cli
-        - developer
-      when: aws_enabled or awscli_enabled | bool
-    - role: 'aws/ebcli'
-      tags:
-        - aws
-        - aws:ebcli
-        - development
-        - development:cli
-        - developer
-      when: aws_enabled or awsebcli_enabled | bool
-    - role: 'aws/ecscli'
-      become: true
-      tags:
-        - aws
-        - aws:ecscli
-        - development
-        - development:cli
-        - developer
-      when: aws_enabled or awsecscli_enabled | bool
+    #- role: 'aws/cli'
+    #  tags:
+    #    - aws
+    #    - aws:cli
+    #    - development
+    #    - development:cli
+    #    - developer
+    #  when: aws_enabled or awscli_enabled | bool
+    #- role: 'aws/ebcli'
+    #  tags:
+    #    - aws
+    #    - aws:ebcli
+    #    - development
+    #    - development:cli
+    #    - developer
+    #  when: aws_enabled or awsebcli_enabled | bool
+    #- role: 'aws/ecscli'
+    #  become: true
+    #  tags:
+    #    - aws
+    #    - aws:ecscli
+    #    - development
+    #    - development:cli
+    #    - developer
+    #  when: aws_enabled or awsecscli_enabled | bool
     - role: docker
       become: true
       tags:
@@ -119,36 +119,36 @@
         - pop_os:shell
         - desktop
       when: pop_os_enabled or pop_os_shell_enabled | bool
-    - role: atom
-      become: true
-      tags:
-        - atom
-        - desktop
-        - development
-        - development:editor
-      when: atom_enabled | bool
-    - role: chromium
-      become: true
-      tags:
-        - chromium
-        - network
-        - desktop
-      when: chromium_enabled | bool
-    - role: dbeaver
-      become: true
-      tags:
-        - dbeaver
-        - desktop
-        - development
-        - development:database
-      when: dbeaver_enabled | bool
-    - role: filezilla
-      become: true
-      tags:
-        - filezilla
-        - network
-        - desktop
-      when: filezilla_enabled | bool
+    #- role: atom
+    #  become: true
+    #  tags:
+    #    - atom
+    #    - desktop
+    #    - development
+    #    - development:editor
+    #  when: atom_enabled | bool
+    #- role: chromium
+    #  become: true
+    #  tags:
+    #    - chromium
+    #    - network
+    #    - desktop
+    #  when: chromium_enabled | bool
+    #- role: dbeaver
+    #  become: true
+    #  tags:
+    #    - dbeaver
+    #    - desktop
+    #    - development
+    #    - development:database
+    #  when: dbeaver_enabled | bool
+    #- role: filezilla
+    #  become: true
+    #  tags:
+    #    - filezilla
+    #    - network
+    #    - desktop
+    #  when: filezilla_enabled | bool
     - role: firefox
       become: true
       tags:
@@ -163,21 +163,21 @@
         - graphics
         - desktop
       when: gimp_enabled | bool
-    - role: indicator-sysmonitor
-      become: true
-      tags:
-        - indicator-sysmonitor
-        - system
-        - desktop
-      when: indicator_sysmonitor_enabled | bool
-    - role: lens
-      become: true
-      tags:
-        - lens
-        - desktop
-        - development
-        - development:editor
-      when: lens_enabled | bool
+    #- role: indicator-sysmonitor
+    #  become: true
+    #  tags:
+    #    - indicator-sysmonitor
+    #   - system
+    #    - desktop
+    # when: indicator_sysmonitor_enabled | bool
+    #- role: lens
+    #  become: true
+    # tags:
+    #    - lens
+    #    - desktop
+    #    - development
+    #    - development:editor
+    #  when: lens_enabled | bool
     - role: libreoffice
       become: true
       tags:
@@ -185,21 +185,21 @@
         - office
         - desktop
       when: libreoffice_enabled | bool
-    - role: mysql-workbench
-      become: true
-      tags:
-        - mysql-workbench
-        - desktop
-        - development
-        - development:database
-      when: mysql_workbench_enabled | bool
-    - role: nautilus-plugins
-      become: true
-      tags:
-        - nautilus-plugins
-        - desktop
-        - utility
-      when: nautilus_plugins_enabled | bool
+    #- role: mysql-workbench
+    #  become: true
+    #  tags:
+    #    - mysql-workbench
+    #    - desktop
+    #    - development
+    #    - development:database
+    #  when: mysql_workbench_enabled | bool
+    #- role: nautilus-plugins
+    #  become: true
+    #  tags:
+    #    - nautilus-plugins
+    #    - desktop
+    #    - utility
+    #  when: nautilus_plugins_enabled | bool
 #    - role: notify-osd
 #      become: true
 #      tags:
