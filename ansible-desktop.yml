@@ -223,49 +223,49 @@
         - network
         - desktop
       when: remmina_enabled | bool
-    - role: skype
-      become: true
-      tags:
-        - skype
-        - network
-        - desktop
-      when: skype_enabled | bool
-    - role: sublime3
-      become: true
-      tags:
-        - sublime3
-        - desktop
-        - development
-        - development:editor
-      when: sublime3_enabled | bool
-    - role: slack
-      tags:
-        - slack
-        - network
-        - desktop
-      when: slack_enabled | bool
-    - role: sunflower
-      become: true
-      tags:
-        - sunflower
-        - utility
-        - desktop
-      when: sunflower_enabled | bool
-    - role: teamviewer
-      become: true
-      tags:
-        - teamviewer
-        - network
-        - desktop
-        - utility
-      when: teamviewer_enabled | bool
-    - role: thunderbird
-      become: true
-      tags:
-        - thunderbird
-        - network
-        - desktop
-      when: thunderbird_enabled | bool
+#    - role: skype
+#      become: true
+#      tags:
+#        - skype
+#        - network
+#        - desktop
+#      when: skype_enabled | bool
+#    - role: sublime3
+#      become: true
+#      tags:
+#        - sublime3
+#        - desktop
+#        - development
+#        - development:editor
+#      when: sublime3_enabled | bool
+#    - role: slack
+#      tags:
+#        - slack
+#        - network
+#        - desktop
+#      when: slack_enabled | bool
+#    - role: sunflower
+#      become: true
+#      tags:
+#        - sunflower
+#        - utility
+#        - desktop
+#      when: sunflower_enabled | bool
+#    - role: teamviewer
+#      become: true
+#      tags:
+#        - teamviewer
+#        - network
+#        - desktop
+#        - utility
+#      when: teamviewer_enabled | bool
+#    - role: thunderbird
+#      become: true
+#      tags:
+#        - thunderbird
+#        - network
+#        - desktop
+#      when: thunderbird_enabled | bool
     - role: timeshift
       become: true
       tags:
@@ -302,3 +302,10 @@
 #        - devops
 #        - devs
 #      when: vokoscreen_enabled | bool
+     - role: nmap
+      become: true
+      tags:
+        - nmap
+        - network
+        - desktop
+      when: nmap_enabled | bool 
