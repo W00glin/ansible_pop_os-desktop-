@@ -173,4 +173,11 @@
         - steam
         - network
         - desktop
-      when: steam_enabled | bool 
+      when: steam_enabled | bool
+    - role: lutris
+      become: true
+      tags:
+        - lutris
+        - network
+        - desktop
+      when: lutris_enabled | bool    
