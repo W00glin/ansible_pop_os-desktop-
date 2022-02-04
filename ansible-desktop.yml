@@ -336,4 +336,11 @@
         - numix-circle
         - network
         - desktop
-      when: numix-circle_enabled | bool 
+      when: numix-circle_enabled | bool
+    - role: neofetch
+      become: true
+      tags:
+        - neofetch
+        - network
+        - desktop
+      when: neofetch_enabled | bool 

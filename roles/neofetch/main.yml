@@ -1,0 +1,6 @@
+---
+
+- name: Install neofetch tool
+  apt:
+    name: neofetch
+    state: present
