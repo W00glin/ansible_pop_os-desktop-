@@ -15,7 +15,7 @@ dbeaver_enabled:              no
 docker_enabled:               no
 filezilla_enabled:            no
 firefox_enabled:              no
-gimp_enabled:                 no
+gimp_enabled:                 yes
 indicator_sysmonitor_enabled: no
 java_openjdk_enabled:         no
 kazan_enabled:                no
@@ -29,7 +29,7 @@ notify-osd_enabled:           no
 pop_os_enabled:               no
 pop_os_shell_enabled:         no
 python_enabled:               no
-remmina_enabled:              no
+remmina_enabled:              yes
 shutter_enabled:              no
 skype_enabled:                no
 slack_enabled:                no
@@ -44,6 +44,7 @@ tmux_enabled:                 no
 ufw_enabled:                  no
 vagrant_enabled:              no
 virtualbox_enabled:           no
+nmap_enabled:                 yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
