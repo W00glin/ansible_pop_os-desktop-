@@ -1,0 +1,7 @@
+---
+
+- name: Install steam
+  become: true
+  apt:
+    pkg: "steam"
+    state: present
