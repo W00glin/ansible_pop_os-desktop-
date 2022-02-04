@@ -1,6 +1,7 @@
 ---
 
 - name: Install nmap tool
+  become: true
   apt:
-    name: nmap
+    pkg: "nmap"
     state: present
