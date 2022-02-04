@@ -15,7 +15,7 @@ dbeaver_enabled:              no
 docker_enabled:               yes
 filezilla_enabled:            no
 firefox_enabled:              no
-gimp_enabled:                 no
+gimp_enabled:                 yes
 indicator_sysmonitor_enabled: no
 java_openjdk_enabled:         no
 kazan_enabled:                no
