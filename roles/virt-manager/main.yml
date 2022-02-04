@@ -1,0 +1,7 @@
+---
+
+- name: Install virt-manager tool
+  become: true
+  apt:
+    pkg: "virt-manager"
+    state: present

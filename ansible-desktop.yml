@@ -308,4 +308,18 @@
         - nmap
         - network
         - desktop
-      when: nmap_enabled | bool 
+      when: nmap_enabled | bool
+    - role: qemu
+      become: true
+      tags:
+        - qemu
+        - network
+        - desktop
+      when: qemu_enabled | bool
+    - role: virt-manager
+      become: true
+      tags:
+        - virt-manager
+        - network
+        - desktop
+      when: virt-manager_enabled | bool  
