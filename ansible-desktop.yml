@@ -67,7 +67,7 @@
         - docker
         - development
         - development:infrastructure
-        - developer
+        - desktop
       when: docker_enabled | bool
 #    - role: kubectl
 #      become: true

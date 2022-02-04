@@ -20,4 +20,7 @@ fi
 echo ""
 echo "Customize the playbook ansible-desktop.yml to suit your needs, then run ansible with :"
 echo "  ansible-playbook ansible-desktop.yml --ask-become-pass"
+echo "Optionaly you can run just some of the tags like:"
+echo "  ansible-playbook ansible-desktop.yml --ask-become-pass --tags=common,locales"
+echo ""
 echo ""
