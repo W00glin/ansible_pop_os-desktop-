@@ -51,14 +51,6 @@
         - development:programing
         - developer
       when: java_openjdk_enabled | bool
-    - role: python
-      become: true
-      tags:
-        - python
-        - development
-        - development:programing
-        - developer
-      when: python_enabled | bool
     - role: ssh
       become: true
       tags:
