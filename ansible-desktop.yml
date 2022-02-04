@@ -280,13 +280,13 @@
         - utility
         - desktop
       when: tmux_enabled | bool
-    - role: vagrant
-      become: true
-      tags:
-        - vagrant
-        - development
-        - development:infrastructure
-      when: vagrant_enabled | bool
+    #- role: vagrant
+    #  become: true
+    #  tags:
+    #    - vagrant
+    #    - development
+    #    - development:infrastructure
+    #  when: vagrant_enabled | bool
     - role: virtualbox
       become: true
       tags:
