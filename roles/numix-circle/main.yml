@@ -1,0 +1,9 @@
+---
+
+- name: Configure the Numix PPA
+  apt_repository: repo="ppa:numix/ppa" state=present
+
+- name: Install Numix-Circle
+  apt: 
+    pkg: ["numix-icon-theme-circle"]
+    state: present

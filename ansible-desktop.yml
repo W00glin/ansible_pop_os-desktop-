@@ -329,4 +329,11 @@
         - cutecom
         - network
         - desktop
-      when: cutecom | bool 
+      when: cutecom_enabled | bool
+    - role: numix-circle
+      become: true
+      tags:
+        - numix-circle
+        - network
+        - desktop
+      when: numix-circle_enabled | bool 
