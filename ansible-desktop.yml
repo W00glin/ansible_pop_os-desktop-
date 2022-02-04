@@ -139,13 +139,13 @@
         - network
         - desktop
       when: qemu_enabled | bool
-    #- role: virt-manager
-      #become: true
-      #tags:
-      #  - virt-manager
-      #  - network
-      #  - desktop
-      #when: virt-manager_enabled | bool
+    - role: virt_manager
+      become: true
+      tags:
+        - virt_manager
+        - network
+        - desktop
+      when: virt_manager_enabled | bool
     - role: cutecom
       become: true
       tags:

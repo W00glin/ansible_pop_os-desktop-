@@ -26,7 +26,7 @@ vagrant_enabled:              no
 virtualbox_enabled:           no
 nmap_enabled:                 yes
 qemu_enabled:                 yes
-virt-manager_enabled:         no
+virt_manager_enabled:         yes
 cutecom_enabled:              yes
 numix_circle_enabled:         yes
 neofetch_enabled:             yes
