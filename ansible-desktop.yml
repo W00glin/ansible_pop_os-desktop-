@@ -104,13 +104,6 @@
         - network
         - desktop
       when: remmina_enabled | bool
-    - role: timeshift
-      become: true
-      tags:
-        - timeshift
-        - system
-        - desktop
-      when: timeshift_enabled | bool
     - role: tmux
       become: true
       tags:
