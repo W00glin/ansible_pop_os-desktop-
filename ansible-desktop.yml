@@ -51,13 +51,13 @@
         - development:programing
         - developer
       when: java_openjdk_enabled | bool
-    - role: ssh
-      become: true
-      tags:
-        - ssh
-        - network
-        - developer
-      when: ssh_enabled | bool
+    #- role: ssh
+    #  become: true
+    #  tags:
+    #    - ssh
+    #    - network
+    #    - developer
+    #  when: ssh_enabled | bool
     ## Desktop roles
     - role: desktop
       tags:
@@ -76,13 +76,13 @@
     #    - network
     #    - desktop
     #  when: filezilla_enabled | bool
-    - role: firefox
-      become: true
-      tags:
-        - firefox
-        - network
-        - desktop
-      when: firefox_enabled | bool
+    #- role: firefox
+    #  become: true
+    #  tags:
+    #    - firefox
+    #    - network
+    #    - desktop
+    #  when: firefox_enabled | bool
     - role: gimp
       become: true
       tags:
