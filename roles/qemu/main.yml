@@ -3,5 +3,5 @@
 - name: Install qemu
   become: true
   apt:
-    pkg: "qemu"
+    name: "qemu"
     state: present

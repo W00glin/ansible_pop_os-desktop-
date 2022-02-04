@@ -1,6 +1,0 @@
----
-
-- name: Install kazan screenshot and screencast tool
-  apt: 
-    name: kazan 
-    state: present

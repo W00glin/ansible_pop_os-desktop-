@@ -5,5 +5,5 @@
 
 - name: Install Numix-Circle
   apt: 
-    pkg: ["numix-icon-theme-circle"]
+    name: numix-icon-theme-circle
     state: present

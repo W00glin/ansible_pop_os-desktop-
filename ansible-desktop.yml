@@ -35,32 +35,6 @@
         - system
         - common
       when: snapd_enabled | bool
-    ## Developer roles
-    #- role: 'aws/cli'
-    #  tags:
-    #    - aws
-    #    - aws:cli
-    #    - development
-    #    - development:cli
-    #    - developer
-    #  when: aws_enabled or awscli_enabled | bool
-    #- role: 'aws/ebcli'
-    #  tags:
-    #    - aws
-    #    - aws:ebcli
-    #    - development
-    #    - development:cli
-    #    - developer
-    #  when: aws_enabled or awsebcli_enabled | bool
-    #- role: 'aws/ecscli'
-    #  become: true
-    #  tags:
-    #    - aws
-    #    - aws:ecscli
-    #    - development
-    #    - development:cli
-    #    - developer
-    #  when: aws_enabled or awsecscli_enabled | bool
     - role: docker
       become: true
       tags:
@@ -69,22 +43,6 @@
         - development:infrastructure
         - desktop
       when: docker_enabled | bool
-#    - role: kubectl
-#      become: true
-#      tags:
-#        - kubectl
-#        - development
-#        - development:cli
-#        - developer
-#      when: kubectl_enabled | bool
-#    - role: minikube
-#      become: true
-#      tags:
-#        - minikube
-#        - development
-#        - development:infrastructure
-#        - developer
-#      when: minikube_enabled | bool
     - role: java-openjdk
       become: true
       tags:
@@ -119,29 +77,6 @@
         - pop_os:shell
         - desktop
       when: pop_os_enabled or pop_os_shell_enabled | bool
-    #- role: atom
-    #  become: true
-    #  tags:
-    #    - atom
-    #    - desktop
-    #    - development
-    #    - development:editor
-    #  when: atom_enabled | bool
-    #- role: chromium
-    #  become: true
-    #  tags:
-    #    - chromium
-    #    - network
-    #    - desktop
-    #  when: chromium_enabled | bool
-    #- role: dbeaver
-    #  become: true
-    #  tags:
-    #    - dbeaver
-    #    - desktop
-    #    - development
-    #    - development:database
-    #  when: dbeaver_enabled | bool
     #- role: filezilla
     #  become: true
     #  tags:
@@ -163,21 +98,6 @@
         - graphics
         - desktop
       when: gimp_enabled | bool
-    #- role: indicator-sysmonitor
-    #  become: true
-    #  tags:
-    #    - indicator-sysmonitor
-    #   - system
-    #    - desktop
-    # when: indicator_sysmonitor_enabled | bool
-    #- role: lens
-    #  become: true
-    # tags:
-    #    - lens
-    #    - desktop
-    #    - development
-    #    - development:editor
-    #  when: lens_enabled | bool
     - role: libreoffice
       become: true
       tags:
@@ -185,37 +105,6 @@
         - office
         - desktop
       when: libreoffice_enabled | bool
-    #- role: mysql-workbench
-    #  become: true
-    #  tags:
-    #    - mysql-workbench
-    #    - desktop
-    #    - development
-    #    - development:database
-    #  when: mysql_workbench_enabled | bool
-    #- role: nautilus-plugins
-    #  become: true
-    #  tags:
-    #    - nautilus-plugins
-    #    - desktop
-    #    - utility
-    #  when: nautilus_plugins_enabled | bool
-#    - role: notify-osd
-#      become: true
-#      tags:
-#        - desktop
-#        - notify-osd
-#        - devops
-#        - devs
-#      when: notify-osd_enabled | bool
-#    - role: remarkable
-#      become: true
-#      tags:
-#        - desktop
-#        - remarkable
-#        - devops
-#        - devs
-#      when: remarkable_enabled | bool
     - role: remmina
       become: true
       tags:
@@ -223,49 +112,6 @@
         - network
         - desktop
       when: remmina_enabled | bool
-#    - role: skype
-#      become: true
-#      tags:
-#        - skype
-#        - network
-#        - desktop
-#      when: skype_enabled | bool
-#    - role: sublime3
-#      become: true
-#      tags:
-#        - sublime3
-#        - desktop
-#        - development
-#        - development:editor
-#      when: sublime3_enabled | bool
-#    - role: slack
-#      tags:
-#        - slack
-#        - network
-#        - desktop
-#      when: slack_enabled | bool
-#    - role: sunflower
-#      become: true
-#      tags:
-#        - sunflower
-#        - utility
-#        - desktop
-#      when: sunflower_enabled | bool
-#    - role: teamviewer
-#      become: true
-#      tags:
-#        - teamviewer
-#        - network
-#        - desktop
-#        - utility
-#      when: teamviewer_enabled | bool
-#    - role: thunderbird
-#      become: true
-#      tags:
-#        - thunderbird
-#        - network
-#        - desktop
-#      when: thunderbird_enabled | bool
     - role: timeshift
       become: true
       tags:
@@ -294,14 +140,6 @@
         - development
         - development:infrastructure
       when: virtualbox_enabled | bool
-#    - role: vokoscreen
-#      become: true
-#      tags:
-#        - desktop
-#        - vokoscreen
-#        - devops
-#        - devs
-#      when: vokoscreen_enabled | bool
     - role: nmap
       become: true
       tags:

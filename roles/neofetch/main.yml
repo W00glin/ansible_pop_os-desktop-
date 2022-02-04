@@ -1,6 +1,7 @@
 ---
 
 - name: Install neofetch tool
+  become: true
   apt:
     name: neofetch
     state: present
