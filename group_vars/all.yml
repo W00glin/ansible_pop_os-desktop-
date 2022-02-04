@@ -3,6 +3,7 @@
 common_enabled:  yes
 locales_enabled: yes
 desktop_enabled: yes
+network_enabled: yes
 
 
 docker_enabled:               no
