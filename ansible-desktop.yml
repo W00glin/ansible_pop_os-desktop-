@@ -1,6 +1,6 @@
 ---
 
-- name: Ubuntu desktop environment playbook
+- name: Pop!_OS desktop environment playbook
   hosts: localhost
 #  pre_tasks:
 #    - name: Gathering Package Facts
@@ -139,13 +139,13 @@
         - network
         - desktop
       when: qemu_enabled | bool
-    - role: virt-manager
-      become: true
-      tags:
-        - virt-manager
-        - network
-        - desktop
-      when: virt-manager_enabled | bool
+    #- role: virt-manager
+      #become: true
+      #tags:
+      #  - virt-manager
+      #  - network
+      #  - desktop
+      #when: virt-manager_enabled | bool
     - role: cutecom
       become: true
       tags:
