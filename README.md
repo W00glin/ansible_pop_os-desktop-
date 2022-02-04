@@ -1,5 +1,5 @@
 # Ansible Ubuntu setup
-Ansible roles to setup Ubuntu desktop. This playbook is focused on quickly deploying a "ready to use" Ubuntu Desktop.
+This is my own personal fork for Ansible roles to setup Ubuntu desktop. This playbook is focused on quickly deploying a "ready to use" Ubuntu Desktop.
 
 
 ## Requirements
