@@ -12,7 +12,7 @@ awsecscli_enabled:            no
 chromium_enabled:             no
 common_git_enabled:           no
 dbeaver_enabled:              no
-docker_enabled:               no
+docker_enabled:               yes
 filezilla_enabled:            no
 firefox_enabled:              no
 gimp_enabled:                 no
@@ -29,7 +29,7 @@ notify-osd_enabled:           no
 pop_os_enabled:               no
 pop_os_shell_enabled:         no
 python_enabled:               no
-remmina_enabled:              no
+remmina_enabled:              yes
 shutter_enabled:              no
 skype_enabled:                no
 slack_enabled:                no
