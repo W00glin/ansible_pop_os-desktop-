@@ -47,6 +47,7 @@ virtualbox_enabled:           no
 nmap_enabled:                 yes
 qemu_enabled:                 yes
 virt-manager_enabled:         yes
+cutecom_enabled:              yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600

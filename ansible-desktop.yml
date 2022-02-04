@@ -322,4 +322,11 @@
         - virt-manager
         - network
         - desktop
-      when: virt-manager_enabled | bool  
+      when: virt-manager_enabled | bool
+    - role: cutecom
+      become: true
+      tags:
+        - cutecom
+        - network
+        - desktop
+      when: cutecom | bool 

@@ -1,0 +1,7 @@
+---
+
+- name: Install cutecom
+  become: true
+  apt:
+    pkg: "cutecom"
+    state: present
