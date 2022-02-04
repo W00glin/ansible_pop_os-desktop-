@@ -12,7 +12,7 @@ awsecscli_enabled:            no
 chromium_enabled:             no
 common_git_enabled:           no
 dbeaver_enabled:              no
-docker_enabled:               no
+docker_enabled:               yes
 filezilla_enabled:            no
 firefox_enabled:              no
 gimp_enabled:                 no
