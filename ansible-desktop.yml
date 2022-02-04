@@ -166,4 +166,11 @@
         - neofetch
         - network
         - desktop
-      when: neofetch_enabled | bool 
+      when: neofetch_enabled | bool
+    - role: steam
+      become: true
+      tags:
+        - steam
+        - network
+        - desktop
+      when: steam_enabled | bool 
