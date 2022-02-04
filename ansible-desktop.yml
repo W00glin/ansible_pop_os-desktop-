@@ -302,7 +302,7 @@
 #        - devops
 #        - devs
 #      when: vokoscreen_enabled | bool
-     - role: nmap
+    - role: nmap
       become: true
       tags:
         - nmap

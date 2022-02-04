@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This script is used to check and see if anisble is already installed. If it is already installed, nothing will occur and it will instead ask you to run the playbook.
 ###################
 # Install ansible #
 # if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
