@@ -216,3 +216,17 @@
         - network
         - desktop
       when: wireshark_enabled | bool
+    - role: discord
+      become: true
+      tags:
+        - discord
+        - network
+        - desktop
+      when: discord_enabled | bool
+    - role: openvpn
+      become: true
+      tags:
+        - openvpn
+        - network
+        - desktop
+      when: openvpn_enabled | bool
