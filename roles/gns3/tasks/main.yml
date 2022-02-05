@@ -1,0 +1,9 @@
+---
+
+- name: Configure the GNS3 PPA
+  apt_repository: repo="ppa:gns3/ppa" state=present
+
+- name: Install GNS3
+  apt: 
+    name: "gns3"
+    state: present

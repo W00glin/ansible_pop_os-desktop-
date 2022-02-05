@@ -195,3 +195,10 @@
         - network
         - desktop
       when: gufw_enabled | bool
+    - role: gns3
+      become: true
+      tags:
+        - gns3
+        - network
+        - desktop
+      when: gns3_enabled | bool
