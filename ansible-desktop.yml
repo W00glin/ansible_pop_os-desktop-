@@ -181,13 +181,13 @@
         - network
         - desktop
       when: lutris_enabled | bool
-    - role: ipmitools
+    - role: ipmitool
       become: true
       tags:
-        - ipmitools
+        - ipmitool
         - network
         - desktop
-      when: ipmitools_enabled | bool
+      when: ipmitool_enabled | bool
     - role: gufw
       become: true
       tags:

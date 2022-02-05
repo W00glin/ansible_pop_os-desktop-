@@ -1,7 +1,0 @@
----
-
-- name: Install ipmitools
-  become: true
-  apt:
-    pkg: "ipmitools"
-    state: present
