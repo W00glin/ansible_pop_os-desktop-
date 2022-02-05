@@ -5,5 +5,5 @@
 
 - name: Install GNS3
   apt: 
-    name: "gns3"
+    name: ["gns3-server", "gns3-gui"]
     state: present
