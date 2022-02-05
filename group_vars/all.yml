@@ -40,7 +40,6 @@ wireshark_enabled:            yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
-locale: "en_US.UTF-8"
 timezone: "New York, United States"
 ssh:
   start: true
