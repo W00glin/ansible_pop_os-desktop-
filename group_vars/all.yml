@@ -35,17 +35,14 @@ lutris_enabled:               yes
 ipmitools_enabled:            yes
 gufw_enabled:                 yes
 gns3_enabled:                 yes
+vlc_enabled:                  yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
 locale: "en_US.UTF-8"
-timezone: "Asia/Beirut"
-chromium:
-  set_default: false
-  policy: false
-  extensions: false
+timezone: "EST"
 ssh:
   start: true
   service_enabled: true
-  password_auth: false
+  password_auth: true
   root_login: false

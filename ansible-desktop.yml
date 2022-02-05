@@ -202,3 +202,10 @@
         - network
         - desktop
       when: gns3_enabled | bool
+    - role: vlc
+      become: true
+      tags:
+        - gnsvlc3
+        - network
+        - desktop
+      when: vlc_enabled | bool
