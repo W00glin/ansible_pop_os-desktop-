@@ -136,14 +136,12 @@
       become: true
       tags:
         - qemu
-        - network
         - desktop
       when: qemu_enabled | bool
     - role: virt_manager
       become: true
       tags:
         - virt_manager
-        - network
         - desktop
       when: virt_manager_enabled | bool
     - role: cutecom
@@ -157,28 +155,26 @@
       become: true
       tags:
         - numix_circle
-        - network
         - desktop
       when: numix_circle_enabled | bool
     - role: neofetch
       become: true
       tags:
         - neofetch
-        - network
         - desktop
       when: neofetch_enabled | bool
     - role: steam
       become: true
       tags:
         - steam
-        - network
+        - gaming
         - desktop
       when: steam_enabled | bool
     - role: lutris
       become: true
       tags:
         - lutris
-        - network
+        - gaming
         - desktop
       when: lutris_enabled | bool
     - role: ipmitool
@@ -206,7 +202,6 @@
       become: true
       tags:
         - vlc
-        - network
         - desktop
       when: vlc_enabled | bool
     - role: wireshark
@@ -220,7 +215,7 @@
       become: true
       tags:
         - discord
-        - network
+        - gaming
         - desktop
       when: discord_enabled | bool
     - role: openvpn
@@ -230,3 +225,9 @@
         - network
         - desktop
       when: openvpn_enabled | bool
+    - role: gnome_shell_extensions
+      become: true
+      tags:
+        - gnome_shell_extensions
+        - desktop
+      when: gnome_shell_extensions | bool

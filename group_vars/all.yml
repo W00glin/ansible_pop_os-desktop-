@@ -39,6 +39,7 @@ vlc_enabled:                  yes
 wireshark_enabled:            yes
 discord_enabled:              yes
 openvpn_enabled:              yes
+gnome_shell_extensions:       yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
