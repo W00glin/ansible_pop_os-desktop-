@@ -32,10 +32,11 @@ numix_circle_enabled:         yes
 neofetch_enabled:             yes
 steam_enabled:                yes
 lutris_enabled:               yes
-ipmitool_enabled:            yes
+ipmitool_enabled:             yes
 gufw_enabled:                 yes
 gns3_enabled:                 yes
 vlc_enabled:                  yes
+wireshark_enabled:            yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600

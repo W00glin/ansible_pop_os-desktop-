@@ -1,0 +1,7 @@
+---
+
+- name: Install wireshark tool
+  become: true
+  apt:
+    pkg: "wireshark"
+    state: present

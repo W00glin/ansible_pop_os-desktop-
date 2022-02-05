@@ -205,7 +205,14 @@
     - role: vlc
       become: true
       tags:
-        - gnsvlc3
+        - vlc
         - network
         - desktop
       when: vlc_enabled | bool
+    - role: wireshark
+      become: true
+      tags:
+        - wireshark
+        - network
+        - desktop
+      when: wireshark_enabled | bool
