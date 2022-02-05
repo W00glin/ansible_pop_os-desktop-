@@ -32,6 +32,7 @@ numix_circle_enabled:         yes
 neofetch_enabled:             yes
 steam_enabled:                yes
 lutris_enabled:               yes
+ipmitools_enabled:            yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600

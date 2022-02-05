@@ -180,4 +180,11 @@
         - lutris
         - network
         - desktop
-      when: lutris_enabled | bool    
+      when: lutris_enabled | bool
+    - role: ipmitools
+      become: true
+      tags:
+        - ipmitools
+        - network
+        - desktop
+      when: ipmitools_enabled | bool    
