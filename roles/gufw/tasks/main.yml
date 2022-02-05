@@ -1,0 +1,7 @@
+---
+
+- name: Install gufw tool
+  become: true
+  apt:
+    pkg: "gufw"
+    state: present

@@ -187,4 +187,11 @@
         - ipmitools
         - network
         - desktop
-      when: ipmitools_enabled | bool    
+      when: ipmitools_enabled | bool
+    - role: gufw
+      become: true
+      tags:
+        - gufw
+        - network
+        - desktop
+      when: gufw_enabled | bool
