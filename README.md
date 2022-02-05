@@ -1,5 +1,5 @@
-# Ansible Ubuntu setup
-This is my own personal fork for Ansible roles to setup Ubuntu desktop. This playbook is focused on quickly deploying a "ready to use" Ubuntu Desktop.
+# Ansible Pop!_OS setup
+This is my own "personal" fork for Ansible roles to setup Pop!_OS. This playbook is focused on quickly deploying a "ready to use" Pop!_OS machine. It install a number of utilites that I use for homelab work, "dev" work and gaming.
 
 
 ## Requirements
