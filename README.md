@@ -51,7 +51,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | VLC                     | Install [VLC](https://www.videolan.org/) for all of your multi-media needs.|
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
-
 |                         | **📡 Services & server tools 🛠️** |
 | docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository|
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
@@ -62,6 +61,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | gns3                    | Install [gns3](https://www.gns3.com/), a graphical network simulator and emulator. It can be used for learning advanced networking concepts without access to hardware. |
 | virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool.|
 | wireshark               | Install [wireshark](https://www.wireshark.org/) PCAP file analysis tool.|
+| nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering.|
 
 
 ## Contributing
