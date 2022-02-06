@@ -13,15 +13,14 @@ gimp_enabled:                 yes
 indicator_sysmonitor_enabled: no
 java_openjdk_enabled:         no
 libreoffice_enabled:          no
-notify-osd_enabled:           no
 pop_os_enabled:               no
 pop_os_shell_enabled:         no
 python_enabled:               no
 remmina_enabled:              yes
-snapd_enabled:                no
+snapd_enabled:                yes
 ssh_enabled:                  yes
 tmux_enabled:                 no
-ufw_enabled:                  no
+ufw_enabled:                  yes
 vagrant_enabled:              no
 virtualbox_enabled:           no
 nmap_enabled:                 yes

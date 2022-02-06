@@ -76,20 +76,20 @@
         - pop_os:shell
         - desktop
       when: pop_os_enabled or pop_os_shell_enabled | bool
-    #- role: filezilla
-    #  become: true
-    #  tags:
-    #    - filezilla
-    #    - network
-    #    - desktop
-    #  when: filezilla_enabled | bool
-    #- role: firefox
-    #  become: true
-    #  tags:
-    #    - firefox
-    #    - network
-    #    - desktop
-    #  when: firefox_enabled | bool
+    - role: filezilla
+      become: true
+      tags:
+        - filezilla
+        - network
+        - desktop
+      when: filezilla_enabled | bool
+    - role: firefox
+      become: true
+      tags:
+        - firefox
+        - network
+        - desktop
+      when: firefox_enabled | bool
     - role: gimp
       become: true
       tags:
@@ -118,13 +118,13 @@
         - utility
         - desktop
       when: tmux_enabled | bool
-    #- role: vagrant
-    #  become: true
-    #  tags:
-    #    - vagrant
-    #    - development
-    #    - development:infrastructure
-    #  when: vagrant_enabled | bool
+    - role: vagrant
+      become: true
+      tags:
+        - vagrant
+        - development
+        - development:infrastructure
+      when: vagrant_enabled | bool
     - role: virtualbox
       become: true
       tags:
@@ -218,13 +218,13 @@
         - network
         - desktop
       when: wireshark_enabled | bool
-#    - role: discord
-#      become: true
-#      tags:
-#        - discord
-#        - gaming
-#        - desktop
-#      when: discord_enabled | bool
+    - role: discord
+      become: true
+      tags:
+        - discord
+        - gaming
+        - desktop
+      when: discord_enabled | bool
     - role: openvpn
       become: true
       tags:
