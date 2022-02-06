@@ -34,7 +34,6 @@ lutris_enabled:               yes
 ipmitool_enabled:             yes
 gufw_enabled:                 yes
 gns3_enabled:                 yes
-vlc_enabled:                  yes
 wireshark_enabled:            yes
 discord_enabled:              yes
 openvpn_enabled:              yes

@@ -31,14 +31,13 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                         |**General**|
 | common                  | Install a lot of usefull packages (curl, htop, less, zip ... see [corresponding task file](https://github.com/sys0dm1n/ansible-ubuntu-desktop/blob/master/roles/common/tasks/main.yml)) |
-| locales                 | Configure system locales and timezone. I currently have it disabled |
-| java-openjdk            | Install Default Java JDK|
+| locales                 | Configure system locales and timezone. I currently have it disabled. |
+| java-openjdk            | Install Default Java JDK.|
 |                         | **🖥️ Desktop tools 💻** |
 | desktop                 | Install a lot of usefull packages (meld, tilda, vlc, xclip)|
-| filezilla               | Install [Filezilla](https://filezilla-project.org/) (no particular settings, basic installation) | 
-| firefox                 | Install [Firefox](https://www.mozilla.org/firefox/) (no particular settings, basic installation) | 
-| gimp                    | Install [Gimp](https://www.gimp.org/) and some minor settings |
-| libreoffice             | Install [LibreOffice](https://www.libreoffice.org/) using [LibreOffice 5.1 PPA](https://launchpad.net/~libreoffice/+archive/ubuntu/libreoffice-5-1) |
+| filezilla               | Install [Filezilla](https://filezilla-project.org/) (no particular settings, basic installation). | 
+| firefox                 | Install [Firefox](https://www.mozilla.org/firefox/) (no particular settings, basic installation). | 
+| gimp                    | Install [Gimp](https://www.gimp.org/) and some minor settings. |
 | nautilus-plugins        | Install Nautilus plugins|
 | remmina                 | Install [Remmina](http://www.remmina.org/) |
 | tmux                    | Install [tmux](https://github.com/tmux/tmux/wiki) tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. |
@@ -48,7 +47,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | steam                   | Install [steam](https://store.steampowered.com/) video game platform with add GNU/Linux compatability layers.|
 | numix-circle            | Install [numix-circle](https://github.com/numixproject/numix-icon-theme-circle) as the icon theme. |
 | visual studio code      | Install [Visual Studio Code](https://code.visualstudio.com/) |
-| VLC                     | Install [VLC](https://www.videolan.org/) for all of your multi-media needs.|
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
 |                         | **📡 Services & server tools 🛠️** |
