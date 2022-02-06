@@ -51,13 +51,20 @@
         - development:programing
         - developer
       when: java_openjdk_enabled | bool
-    #- role: ssh
-    #  become: true
-    #  tags:
-    #    - ssh
-    #    - network
-    #    - developer
-    #  when: ssh_enabled | bool
+    - role: ssh
+      become: true
+      tags:
+        - ssh
+        - network
+        - developer
+      when: ssh_enabled | bool
+    - role: visual_studio_code
+      become: true
+      tags:
+        - visual_studio_code
+        - development
+        - developer
+      when: visual_studio_code | bool
     ## Desktop roles
     - role: desktop
       tags:

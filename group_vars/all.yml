@@ -19,7 +19,7 @@ pop_os_shell_enabled:         no
 python_enabled:               no
 remmina_enabled:              yes
 snapd_enabled:                no
-ssh_enabled:                  no
+ssh_enabled:                  yes
 tmux_enabled:                 no
 ufw_enabled:                  no
 vagrant_enabled:              no
@@ -40,6 +40,7 @@ wireshark_enabled:            yes
 discord_enabled:              yes
 openvpn_enabled:              yes
 gnome_shell_extensions:       yes
+visual_studio_code:           yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
