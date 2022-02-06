@@ -11,8 +11,8 @@ This is my own "personal" fork for Ansible roles to setup Pop!_OS. This playbook
 First, you need to install Git and Ansible :
 ```
 $ sudo apt-get install git
-$ git clone https://github.com/sys0dm1n/ansible-ubuntu-desktop.git
-$ cd ansible-ubuntu-desktop
+$ git clone https://github.com/W00glin/ansible-pop_os-desktop.git
+$ cd ansible-pop_os-desktop
 $ bash ./install.sh
 ```
 
@@ -55,4 +55,4 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 
 
 ## Contributing
-Do whatever you want. This is my fork. I don't plan on upstreaming any of my changes. If you like it, go ahead and fork and if you want to make changes, feel free to submit a PR.
+Do whatever you want. This is my fork. I don't plan on upstreaming any of my changes. If you like it, go ahead and fork it, or not. If you want to make changes, feel free to submit a PR.
