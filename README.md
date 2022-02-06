@@ -62,7 +62,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool.|
 | wireshark               | Install [wireshark](https://www.wireshark.org/) PCAP file analysis tool.|
 | nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering.|
-
+| openvpn                 | Install [openvpn](https://help.ubuntu.com/community/OpenVPN), for utilizing VPN configs for PIA|
 
 ## Contributing
 Do whatever you want. This is my fork. I don't plan on upstreaming any of my changes. If you like it, go ahead and fork it, or not. If you want to make changes, feel free to submit a PR.
