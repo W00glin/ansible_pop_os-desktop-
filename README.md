@@ -43,7 +43,11 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | remmina                 | Install [Remmina](http://www.remmina.org/) |
 | tmux                    | Install [tmux](https://github.com/tmux/tmux/wiki) tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. |
 | vagrant                 | Install [Vagrant](https://www.vagrantup.com/) from online deb file|
-| virtualbox              | Install [VirtualBox](https://www.virtualbox.org/) from VirtualBox APT repositories | 
+| virtualbox              | Install [VirtualBox](https://www.virtualbox.org/) from VirtualBox APT repositories |
+| qemu                    | Install [qemu](https://www.qemu.org/) as an alternative to virtualbox if you want to avoid virtualbox.| 
+| steam                   | Install [steam](https://store.steampowered.com/) video game platform with add GNU/Linux compatability layers.|
+| numix-circle            | Install [numix-circle](https://github.com/numixproject/numix-icon-theme-circle) as the icon theme. |
+| visual studio code      | Install [Visual Studio Code](https://code.visualstudio.com/) |
 |                         | **Services & server tools** |
 | docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository|
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
@@ -51,7 +55,8 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | gufw                    | Install [gufw](https://help.ubuntu.com/community/Gufw) graphical interface for ufw.|
 | cutecom                 | Install [cutecom](https://help.ubuntu.com/community/Cutecom) graphical interface for interacting with console ports.|
 | ipmitool                | Install [ipmitool](https://help.ubuntu.com/community/IPMI) CLI tool for managing old IPMI interfaces |
-| gns3                    | Install [gns3](https://www.gns3.com/) is a graphical network simulator and emulator. It can be used for learning advanced networking concepts without access to hardware. |
+| gns3                    | Install [gns3](https://www.gns3.com/), a graphical network simulator and emulator. It can be used for learning advanced networking concepts without access to hardware. |
+| virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool.|
 
 
 ## Contributing
