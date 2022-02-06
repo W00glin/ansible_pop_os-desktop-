@@ -1,7 +1,7 @@
 ---
 
 common_enabled:  yes
-locales_enabled: yes
+locales_enabled: no
 desktop_enabled: yes
 network_enabled: yes
 
@@ -41,6 +41,7 @@ discord_enabled:              yes
 openvpn_enabled:              yes
 gnome_shell_extensions:       yes
 visual_studio_code:           yes
+icedtea_netx:                 yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600

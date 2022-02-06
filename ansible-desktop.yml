@@ -238,3 +238,10 @@
         - gnome_shell_extensions
         - desktop
       when: gnome_shell_extensions | bool
+    - role: icedtea_netx
+      become: true
+      tags:
+        - icedtea_netx
+        - network
+        - desktop
+      when: icedtea_netx | bool

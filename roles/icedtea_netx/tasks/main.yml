@@ -1,0 +1,7 @@
+---
+
+- name: Install icedtea-netx tool
+  become: true
+  apt:
+    pkg: "icedtea-netx"
+    state: present
