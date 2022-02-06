@@ -50,17 +50,17 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
 |                         | **📡 Services & server tools 🛠️** |
-| docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository|
+| docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository. |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
-| ufw                     | Install [ufw](https://help.ubuntu.com/community/UFW) |
-| gufw                    | Install [gufw](https://help.ubuntu.com/community/Gufw) graphical interface for ufw.|
-| cutecom                 | Install [cutecom](https://help.ubuntu.com/community/Cutecom) graphical interface for interacting with console ports.|
-| ipmitool                | Install [ipmitool](https://help.ubuntu.com/community/IPMI) CLI tool for managing old IPMI interfaces |
+| ufw                     | Install [ufw](https://help.ubuntu.com/community/UFW), it is the uncomplicated firewall. |
+| gufw                    | Install [gufw](https://help.ubuntu.com/community/Gufw), it is a graphical interface for ufw.|
+| cutecom                 | Install [cutecom](https://help.ubuntu.com/community/Cutecom), it is a graphical interface for interacting with console ports.|
+| ipmitool                | Install [ipmitool](https://help.ubuntu.com/community/IPMI), it is a CLI tool for managing old IPMI interfaces |
 | gns3                    | Install [gns3](https://www.gns3.com/), a graphical network simulator and emulator. It can be used for learning advanced networking concepts without access to hardware. |
-| virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool.|
-| wireshark               | Install [wireshark](https://www.wireshark.org/) PCAP file analysis tool.|
-| nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering.|
-| openvpn                 | Install [openvpn](https://help.ubuntu.com/community/OpenVPN), for utilizing VPN configs for PIA|
+| virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool. |
+| wireshark               | Install [wireshark](https://www.wireshark.org/) PCAP file analysis tool. |
+| nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering. |
+| openvpn                 | Install [openvpn](https://help.ubuntu.com/community/OpenVPN), for utilizing VPN configs for PIA. |
 
 ## Contributing
 Do whatever you want. This is my fork. I don't plan on upstreaming any of my changes. If you like it, go ahead and fork it, or not. If you want to make changes, feel free to submit a PR.
