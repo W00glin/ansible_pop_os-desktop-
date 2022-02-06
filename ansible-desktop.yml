@@ -218,13 +218,13 @@
         - network
         - desktop
       when: wireshark_enabled | bool
-    - role: discord
-      become: true
-      tags:
-        - discord
-        - gaming
-        - desktop
-      when: discord_enabled | bool
+#    - role: discord
+#      become: true
+#      tags:
+#        - discord
+#        - gaming
+#        - desktop
+#      when: discord_enabled | bool
     - role: openvpn
       become: true
       tags:
