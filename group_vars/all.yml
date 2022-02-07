@@ -40,6 +40,7 @@ openvpn_enabled:              yes
 gnome_shell_extensions:       yes
 visual_studio_code:           yes
 icedtea_netx:                 yes
+asbru_enabled:                yes
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
