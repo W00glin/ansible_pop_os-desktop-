@@ -3,7 +3,7 @@
 - name: Download Ásbrú from Cloudsmith
   ansible.builtin.get_url:
     url: https://dl.cloudsmith.io/public/asbru-cm/release/cfg/setup/bash.deb.sh
-
+    dest: /dev/null/
 - name: Install Ásbrú
   apt: 
     name: ["asbru-cmi"]
