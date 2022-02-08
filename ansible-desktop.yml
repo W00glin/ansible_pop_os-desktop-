@@ -239,3 +239,10 @@
         - network
         - desktop
       when: icedtea_netx | bool
+    - role: asbru
+      become: true
+      tags:
+        - asbru
+        - network
+        - desktop
+      when: asbru_enabled | bool
