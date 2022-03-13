@@ -31,7 +31,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                         |**General**|
 | common                  | Install a lot of usefull packages (curl, htop, less, zip ... see [corresponding task file](hhttps://github.com/W00glin/ansible-pop_os-desktop/blob/master/roles/common/tasks/main.yml) |
-| locales                 | Configure system locales and timezone. I currently have it disabled. |
 | java-openjdk            | Install Default Java JDK.|
 |                         | **🖥️ Desktop tools 💻** |
 | desktop                 | Install a lot of usefull packages (meld, tilda, vlc, xclip). |
