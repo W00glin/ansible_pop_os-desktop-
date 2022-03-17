@@ -1,5 +1,5 @@
 # Ansible Pop!_OS setup 🧑🏼‍💻
-This is my own "personal" fork for Ansible roles to setup Pop!_OS. This playbook is focused on quickly deploying a "ready to use" Pop!_OS machine. It installs a number of utilites that I use for homelab work, "dev" work and gaming.
+This is my own "personal" fork for Ansible roles to setup Pop!_OS. This playbook is focused on quickly deploying a "ready to use" Pop!_OS machine. It installs a number of utilites that I use for homelab work, "dev" work and gaming. This is also where I learn and test out Git and GitHub features and tools. So if you see a lot of odd, pointless commits that would be why.
 
 
 ## Requirements
