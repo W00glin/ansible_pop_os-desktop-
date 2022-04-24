@@ -48,6 +48,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | visual studio code      | Install [Visual Studio Code](https://code.visualstudio.com/) |
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
+| gnome-tweaks            | Install [gnome-tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks), a gnome settings manager. |
 |                         | **📡 Services & server tools 🛠️** |
 | docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository. |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 

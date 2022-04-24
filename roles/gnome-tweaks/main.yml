@@ -1,0 +1,7 @@
+---
+
+- name: Install gnome-tweaks tool
+  become: true
+  apt:
+    pkg: "gnome-tweaks"
+    state: present

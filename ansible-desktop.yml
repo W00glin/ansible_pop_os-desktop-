@@ -239,10 +239,9 @@
         - network
         - desktop
       when: icedtea_netx | bool
-    - role: asbru
+    - role: gnome_tweaks
       become: true
       tags:
-        - asbru
-        - network
+        - gnomes_tweaks
         - desktop
-      when: asbru_enabled | bool
+      when: gnomes_tweaks | bool

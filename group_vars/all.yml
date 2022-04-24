@@ -40,8 +40,7 @@ openvpn_enabled:              no
 gnome_shell_extensions:       no
 visual_studio_code:           no
 icedtea_netx:                 no
-asbru_enabled:                no
-
+gnome_tweaks:                 no
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
 timezone: "New York, United States"
