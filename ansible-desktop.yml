@@ -10,12 +10,6 @@
 #        - dbeaver
   roles:
     ## Common roles
-    - role: locales
-      become: true
-      tags:
-        - locale
-        - common
-      when: locales_enabled | bool
     - role: common
       become: true
       tags:
@@ -70,12 +64,6 @@
       tags:
         - desktop
       when: desktop_enabled | bool
-    - role: 'pop_os/shell'
-      tags:
-        - pop_os
-        - pop_os:shell
-        - desktop
-      when: pop_os_enabled or pop_os_shell_enabled | bool
     - role: filezilla
       become: true
       tags:

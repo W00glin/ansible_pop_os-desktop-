@@ -1,9 +1,9 @@
 ---
 
 common_enabled:  no
-locales_enabled: no
 desktop_enabled: no
 network_enabled: no
+gaming_enabled:  no
 
 
 docker_enabled:               no
@@ -41,6 +41,7 @@ gnome_shell_extensions:       no
 visual_studio_code:           no
 icedtea_netx:                 no
 gnome_tweaks:                 no
+
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
 timezone: "New York, United States"
