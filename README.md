@@ -16,7 +16,7 @@ $ cd ansible-pop_os-desktop
 $ bash ./install.sh
 ```
 
-Then you need to copy the `group_vars/all.yml` to `group_vars/local.yml` and customize the which role you need suits your needs. All roles except `locales`,`common`, and `desktop` are disabled by default.
+Then you need to copy the `group_vars/all.yml` to `group_vars/local.yml` and customize the which role you need suits your needs. All roles are disabled by default. To customize the install, simply enable any of the boolean options in the  `all.yml` file. 
 
 Run `ansible-playbook ansible-desktop.yml --ask-become-pass` and enter your sudo password to run the playbook
 
