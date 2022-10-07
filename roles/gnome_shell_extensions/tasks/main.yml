@@ -1,6 +1,6 @@
 ---
 
-- name: Install Gnome-Shell-Extensions
+- name: Install Gnome_Shell_Extensions
   apt: 
     pkg: "gnome-shell-extensions"
     state: present
