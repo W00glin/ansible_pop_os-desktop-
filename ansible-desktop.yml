@@ -230,6 +230,6 @@
     - role: gnome_tweaks
       become: true
       tags:
-        - gnomes_tweaks
+        - gnome_tweaks
         - desktop
-      when: gnomes_tweaks | bool
+      when: gnome_tweaks | bool
