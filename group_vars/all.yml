@@ -1,9 +1,9 @@
 ---
 
-common_enabled:  no
-desktop_enabled: no
-network_enabled: no
-gaming_enabled:  no
+common_enabled:  yes
+desktop_enabled: yes
+network_enabled: yes
+gaming_enabled:  yes
 
 
 docker_enabled:               no
