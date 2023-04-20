@@ -15,7 +15,6 @@ desktop:
     - 'mpv'
     - 'pinta'
     - 'rhythmbox'
-    - 'rxvt-unicode-256color'
     - 'sox'
     - 'tilda'
     - 'ubuntu-restricted-extras'

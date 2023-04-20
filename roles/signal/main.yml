@@ -1,0 +1,9 @@
+---
+- name: Install Signal Desktop
+  apt:
+    name: signal-desktop
+    state: present
+  become: true
+  tags:
+    - signal
+    - desktop

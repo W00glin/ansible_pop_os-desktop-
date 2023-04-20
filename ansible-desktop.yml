@@ -214,22 +214,16 @@
         - network
         - desktop
       when: openvpn_enabled | bool
-    - role: gnome_shell_extensions
-      become: true
-      tags:
-        - gnome_shell_extensions
-        - desktop
-      when: gnome_shell_extensions | bool
     - role: icedtea_netx
       become: true
       tags:
         - icedtea_netx
         - network
         - desktop
-      when: icedtea_netx | bool
-    - role: gnome_tweaks
+      when: icedtea_netx_enabled | bool
+    - role: signal
       become: true
       tags:
-        - gnome_tweaks
+        - signal
         - desktop
-      when: gnome_tweaks | bool
+      when: signal_enabled | bool
