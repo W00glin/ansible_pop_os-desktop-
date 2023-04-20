@@ -48,6 +48,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | visual studio code      | Install [Visual Studio Code](https://code.visualstudio.com/) |
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
+| Signal                  | Install [Signal](https://signal.org/en/) for encrypted chat messaging |
 |                         | **📡 Services & server tools 🛠️** |
 | docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository. |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
@@ -61,7 +62,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering. |
 | openvpn                 | Install [openvpn](https://help.ubuntu.com/community/OpenVPN), for utilizing VPN configs for PIA. |
 | vagrant                 | Install [Vagrant](https://www.vagrantup.com/) from online deb file. |
-| Signal                  | Install [Signal](https://signal.org/en/) for encrypted chat messaging |
 
 ## Contributing
 Do whatever you want. This is my fork. I don't plan on upstreaming any of my changes. If you like it, go ahead and fork it, or not. If you want to make changes, feel free to submit a PR.
