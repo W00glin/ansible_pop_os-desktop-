@@ -233,9 +233,3 @@
         - gnome-screenshot
         - desktop
       when: gnome-screenshot_enabled | bool
-    - role: obsidian
-      become: true
-      tags:
-        - obsidian
-        - desktop
-      when: obsidian_enabled | bool

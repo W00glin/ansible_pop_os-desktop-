@@ -50,7 +50,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
 | Signal                  | Install [Signal](https://signal.org/en/) for encrypted chat messaging |
 | GNOME Screenshot        | Install [GNOME Screenshot](https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en) to screenshot all the things. |
-| Obsidian                | Install [Obsidian](https://obsidian.md/), a personal knowledge base and note-taking software application that operates on Markdown files. |
 |                         | **📡 Services & server tools 🛠️** |
 | docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository. |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 

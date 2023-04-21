@@ -1,6 +1,0 @@
----
-# I *hate* how long this took me. KISS.
-- name: Install Obsidian MD via Flatpak
-  community.general.flatpak:
-    name:  https://dl.flathub.org/repo/appstream/md.obsidian.Obsidian.flatpakref
-    state: present
