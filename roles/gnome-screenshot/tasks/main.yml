@@ -1,0 +1,7 @@
+---
+
+- name: Install gnome-screenshot tool
+  become: true
+  apt:
+    pkg: "gnome-screenshot"
+    state: present
