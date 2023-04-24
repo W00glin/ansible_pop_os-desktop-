@@ -41,6 +41,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | remmina                 | Install [Remmina](http://www.remmina.org/) RDP/SSH/VNC management GUI. |
 | tmux                    | Install [tmux](https://github.com/tmux/tmux/wiki), is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. |
 | vagrant                 | Install [Vagrant](https://www.vagrantup.com/) from online deb file. |
+| terraform               | Install [Terraform](https://www.terraform.io/) an open-source infrastructure-as-code software tool created by HashiCorp. |
 | virtualbox              | Install [VirtualBox](https://www.virtualbox.org/) from VirtualBox APT repositories. |
 | qemu                    | Install [qemu](https://www.qemu.org/) as an alternative to virtualbox if you want to avoid virtualbox and Oracle.| 
 | steam                   | Install [steam](https://store.steampowered.com/) video game platform with add GNU/Linux compatability layers.|

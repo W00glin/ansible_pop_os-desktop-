@@ -17,7 +17,6 @@ python_enabled:               false
 remmina_enabled:              false
 snapd_enabled:                false
 ssh_enabled:                  false
-tmux_enabled:                 false
 ufw_enabled:                  false
 vagrant_enabled:              false
 virtualbox_enabled:           false
@@ -39,6 +38,7 @@ visual_studio_code:           false
 icedtea_netx_enabled:         false
 signal_enabled:               false
 gnome-screenshot_enabled:     false
+terraform_enabled:            true
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600

@@ -99,13 +99,6 @@
         - network
         - desktop
       when: remmina_enabled | bool
-    - role: tmux
-      become: true
-      tags:
-        - tmux
-        - utility
-        - desktop
-      when: tmux_enabled | bool
     - role: vagrant
       become: true
       tags:
@@ -233,3 +226,9 @@
         - gnome-screenshot
         - desktop
       when: gnome-screenshot_enabled | bool
+    - role: terraform
+      become: true
+      tags:
+        - terraform
+        - developer
+      when: terraform_enabled | bool
