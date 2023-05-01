@@ -4,6 +4,7 @@ common_enabled:  true
 desktop_enabled: true
 network_enabled: true
 gaming_enabled:  true
+developement_enabled : true
 
 
 docker_enabled:               false
