@@ -4,10 +4,6 @@
     path: /usr/share/keyrings/signal-desktop-keyring.gpg
   register: keyring_file
 
-- name: Keyring setup
-  ansible.builtin.include_tasks: keyring-setup.yml
-  when: not keyring_file.stat.exists
-
 - name: Add Signal repository to list of repositories
   ansible.builtin.shell: |
     set -o pipefail
