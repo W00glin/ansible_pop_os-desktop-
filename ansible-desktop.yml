@@ -226,9 +226,10 @@
         - gnome-screenshot
         - desktop
       when: gnome-screenshot_enabled | bool
-    - role: terraform
+    - role: flameshot
       become: true
       tags:
-        - terraform
-        - developer
-      when: terraform_enabled | bool
+        - flameshot
+        - desktop
+      when: flameshot_enabled | bool
+      
