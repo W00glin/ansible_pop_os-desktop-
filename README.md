@@ -18,6 +18,10 @@ $ bash ./install.sh
 
 Then you need to copy the `group_vars/all.yml` to `group_vars/local.yml` and customize the which role you need suits your needs. All roles are disabled by default. To customize the install, simply enable any of the boolean options in the  `all.yml` file. 
 
+Now if you want to view what the ansible playbook is going to change prior to actually running the playbook you should run `ansible-playbook ansible-desktop.yml --check`. From the documentation -
+
+> [Check mode is just a simulation. It will not generate output for tasks that use conditionals based on registered variables (results of prior tasks). However, it is great for validating configuration management playbooks that run on one node at a time](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_checkmode.html)
+
 Run `ansible-playbook ansible-desktop.yml --ask-become-pass` and enter your sudo password to run the playbook
 
 Optionaly you can run just some of the tags like:
