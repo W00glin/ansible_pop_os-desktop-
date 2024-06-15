@@ -42,7 +42,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | firefox                 | Install [Firefox](https://www.mozilla.org/firefox/) (no particular settings, basic installation). | 
 | gimp                    | Install [Gimp](https://www.gimp.org/) and some minor settings. |
 | nautilus-plugins        | Install Nautilus plugins.|
-| remmina                 | Install [Remmina](http://www.remmina.org/) RDP/SSH/VNC management GUI. |
 | tmux                    | Install [tmux](https://github.com/tmux/tmux/wiki), is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. |
 | vagrant                 | Install [Vagrant](https://www.vagrantup.com/) from online deb file. |
 | terraform               | Install [Terraform](https://www.terraform.io/) an open-source infrastructure-as-code software tool created by HashiCorp. |

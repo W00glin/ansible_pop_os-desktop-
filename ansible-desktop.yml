@@ -84,13 +84,6 @@
         - office
         - desktop
       when: libreoffice_enabled | bool
-    - role: remmina
-      become: true
-      tags:
-        - remmina
-        - network
-        - desktop
-      when: remmina_enabled | bool
     - role: vagrant
       become: true
       tags:
