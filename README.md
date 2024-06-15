@@ -61,7 +61,6 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | gufw                    | Install [gufw](https://help.ubuntu.com/community/Gufw), it is a graphical interface for ufw.|
 | cutecom                 | Install [cutecom](https://help.ubuntu.com/community/Cutecom), it is a graphical interface for interacting with console ports.|
 | ipmitool                | Install [ipmitool](https://help.ubuntu.com/community/IPMI), it is a CLI tool for managing old IPMI interfaces |
-| gns3                    | Install [gns3](https://www.gns3.com/), a graphical network simulator and emulator. It can be used for learning advanced networking concepts without access to hardware. |
 | virt-manager            | Install [virt-manager](https://virt-manager.org/) KVM managment tool. |
 | wireshark               | Install [wireshark](https://www.wireshark.org/) PCAP file analysis tool. |
 | nmap                    | Install [nmap](https://nmap.org/), a common CLI tool for network troubleshooting and information gathering. |

@@ -30,7 +30,6 @@ steam_enabled:                true
 lutris_enabled:               true
 ipmitool_enabled:             true
 gufw_enabled:                 true
-gns3_enabled:                 true
 wireshark_enabled:            true
 discord_enabled:              true
 openvpn_enabled:              true
