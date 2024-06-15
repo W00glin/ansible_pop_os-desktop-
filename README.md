@@ -54,9 +54,8 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
 | Signal                  | Install [Signal](https://signal.org/en/) for encrypted chat messaging |
-| GNOME Screenshot        | Install [GNOME Screenshot](https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en) to screenshot all the things. |
+| Flameshot               | Install [Flameshot](https://flameshot.org/) to screenshot all the things. |
 |                         | **📡 Services & server tools 🛠️** |
-| docker                  | Install [Docker](https://www.docker.com/) and Docker compose from Docker deb repository. |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
 | ufw                     | Install [ufw](https://help.ubuntu.com/community/UFW), it is the uncomplicated firewall. |
 | gufw                    | Install [gufw](https://help.ubuntu.com/community/Gufw), it is a graphical interface for ufw.|

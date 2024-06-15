@@ -7,40 +7,38 @@ gaming_enabled:  true
 developement_enabled : true
 
 
-docker_enabled:               false
-filezilla_enabled:            false
-firefox_enabled:              false
-gimp_enabled:                 false
-indicator_sysmonitor_enabled: false
-java_openjdk_enabled:         false
-libreoffice_enabled:          false
-python_enabled:               false
-remmina_enabled:              false
-snapd_enabled:                false
-ssh_enabled:                  false
-ufw_enabled:                  false
-vagrant_enabled:              false
-virtualbox_enabled:           false
-nmap_enabled:                 false
-qemu_enabled:                 false
-virt_manager_enabled:         false
-cutecom_enabled:              false
-numix_circle_enabled:         false
-neofetch_enabled:             false
-steam_enabled:                false
-lutris_enabled:               false
-ipmitool_enabled:             false
-gufw_enabled:                 false
-gns3_enabled:                 false
-wireshark_enabled:            false
-discord_enabled:              false
-openvpn_enabled:              false
-visual_studio_code:           false
-icedtea_netx_enabled:         false
-signal_enabled:               false
-gnome-screenshot_enabled:     false
-terraform_enabled:            false
-flameshot_enabeld:            false
+filezilla_enabled:            true
+firefox_enabled:              true
+gimp_enabled:                 true
+indicator_sysmonitor_enabled: true
+java_openjdk_enabled:         true
+libreoffice_enabled:          true
+python_enabled:               true
+remmina_enabled:              true
+snapd_enabled:                true
+ssh_enabled:                  true
+ufw_enabled:                  true
+vagrant_enabled:              true
+virtualbox_enabled:           true
+nmap_enabled:                 true
+qemu_enabled:                 true
+virt_manager_enabled:         true
+cutecom_enabled:              true
+numix_circle_enabled:         true
+neofetch_enabled:             true
+steam_enabled:                true
+lutris_enabled:               true
+ipmitool_enabled:             true
+gufw_enabled:                 true
+gns3_enabled:                 true
+wireshark_enabled:            true
+discord_enabled:              true
+openvpn_enabled:              true
+visual_studio_code:           true
+icedtea_netx_enabled:         true
+signal_enabled:               true
+terraform_enabled:            true
+flameshot_enabled:            true
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
@@ -49,4 +47,4 @@ ssh:
   start: true
   service_enabled: true
   password_auth: true
-  root_login: false
+  root_login: true
