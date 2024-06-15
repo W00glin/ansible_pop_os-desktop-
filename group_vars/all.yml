@@ -23,7 +23,7 @@ nmap_enabled:                 true
 qemu_enabled:                 true
 virt_manager_enabled:         true
 cutecom_enabled:              true
-numix_circle_enabled:         true
+numix_circle_enabled:         false
 neofetch_enabled:             true
 steam_enabled:                true
 lutris_enabled:               true

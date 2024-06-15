@@ -1,7 +1,7 @@
 ---
 
 - name: Install flameshot
-  snap:
+  apt:
     name:
       - flameshot
     state: present
