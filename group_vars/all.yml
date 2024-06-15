@@ -14,7 +14,6 @@ indicator_sysmonitor_enabled: true
 java_openjdk_enabled:         true
 libreoffice_enabled:          true
 python_enabled:               true
-remmina_enabled:              true
 snapd_enabled:                true
 ssh_enabled:                  true
 ufw_enabled:                  true
@@ -35,7 +34,6 @@ discord_enabled:              true
 openvpn_enabled:              true
 visual_studio_code:           true
 icedtea_netx_enabled:         true
-signal_enabled:               true
 terraform_enabled:            true
 flameshot_enabled:            true
 

@@ -192,12 +192,6 @@
         - network
         - desktop
       when: icedtea_netx_enabled | bool
-    - role: signal
-      become: true
-      tags:
-        - signal
-        - desktop
-      when: signal_enabled | bool
     - role: flameshot
       become: true
       tags:
