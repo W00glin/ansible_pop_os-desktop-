@@ -198,4 +198,9 @@
         - flameshot
         - desktop
       when: flameshot_enabled | bool
-      
+    - role: localsend
+      become: true
+      tags:
+        - localsend
+        - desktop
+      when: localsend_enabled | bool

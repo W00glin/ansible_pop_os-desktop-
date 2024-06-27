@@ -1,0 +1,7 @@
+---
+
+- name: Install LocalSend
+  snap:
+    name:
+      - localsend
+    state: present

@@ -53,6 +53,7 @@ Tags are named the same as role dirs. If a role is in a sub dir then the tag for
 | neofetch                | Install [neofetch](https://github.com/dylanaraps/neofetch), a CLI tool for system info.|
 | lutris                  | Install [lutris](https://lutris.net/), a game manager tool for GNU/Linux.|
 | Flameshot               | Install [Flameshot](https://flameshot.org/) to screenshot all the things. |
+| LocalSend               | Install [LocalSend](https://localsend.org/) a FOSS cross-platform filesharing tool.|
 |                         | **📡 Services & server tools 🛠️** |
 | ssh                     | Install [OpenSSH Server](http://www.openssh.com/)      | 
 | ufw                     | Install [ufw](https://help.ubuntu.com/community/UFW), it is the uncomplicated firewall. |

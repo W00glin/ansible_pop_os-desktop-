@@ -36,6 +36,7 @@ visual_studio_code:           true
 icedtea_netx_enabled:         true
 terraform_enabled:            true
 flameshot_enabled:            true
+localsend_enabled:            true
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
